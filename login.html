@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Login</title>
+</head>
+<body>
+    <navbar>
+        <header>
+    
+            <div class="navbar">
+                <h1>CDTP</h1>
+            </div>
+    
+                <ul class="ptop">
+                    <button onclick="irinicio()" id=botaoc class="binicio">Ínicio</button>
+                    <button onclick="ircursos()" id=botaoc class="bcursos">Cursos</button>
+                    <button onclick="irlista()" id=botaoc class="bsb">Suas Metas</button>
+                    <button onclick="irlogin()" id=botaoc class="blogin">Login</button>
+                </ul>
+    
+        </header>
+        </navbar>
+    <div class="main-login"> 
+        <div class="left-login">
+            <h1>Faça Login<br> <span>Entre para nossa equipe!</span></h1>
+            <img src="robo.svg" class=left-login-image alt="Roboinicial">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="password" placeholder="Senha">
+                </div>
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="dev.js"></script>            
+</body>
+</html>
